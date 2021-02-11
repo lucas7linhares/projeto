@@ -1,0 +1,44 @@
+.site-layout-content {
+  min-height: 280px;
+  background-color: #001529;
+  color: #ccc;
+  height: 90vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.content {
+  padding: 50px;
+  background-color: #001529;
+  color: #ccc;
+}
+.menu {
+  text-align: center;
+  background-color: #001529;
+  color: #ccc;
+  border: unset;
+}
+.menu-item {
+  padding: 5px 10vw 5px 10vw !important;
+  margin: 0 !important;
+}
+.footer {
+  text-align: center;
+  background-color: #000c18;
+  color: #ccc;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+}
+.intro {
+  text-align: center;
+  font-size: 30px;
+}
