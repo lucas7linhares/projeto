@@ -18,36 +18,21 @@ class App extends Component {
     return (
       <Layout className="layout">
         <Header className="header">
-          <Menu mode="horizontal" className="menu" defaultSelectedKeys={["1"]}>
+          <Menu mode="horizontal" className="menu">
             <Menu.Item className="menu-item" key="1">
-              {/* <Link
-                activeClass="active"
-                to="intro"
-                smooth={true}
-                style={{ color: "#CCC" }}
-              > */}
-              Intro
-              {/* </Link> */}
+              <Link to="intro" smooth={true} className="link">
+                Intro
+              </Link>
             </Menu.Item>
             <Menu.Item className="menu-item" key="2">
-              {/* <Link
-                activeClass="active"
-                to="sobre"
-                smooth={true}
-                style={{ color: "#CCC" }}
-              > */}
-              Sobre
-              {/* </Link> */}
+              <Link to="sobre" smooth={true} className="link">
+                Sobre
+              </Link>
             </Menu.Item>
             <Menu.Item className="menu-item" key="3">
-              {/* <Link
-                activeClass="active"
-                to="contato"
-                smooth={true}
-                style={{ color: "#CCC" }}
-              > */}
-              Contato
-              {/* </Link> */}
+              <Link to="contato" smooth={true} className="link">
+                Contato
+              </Link>
             </Menu.Item>
           </Menu>
         </Header>
